@@ -1,0 +1,11 @@
+.git
+.env
+.DS_Store # macOS specific ignore
+airflow_settings.yaml
+__pycache__/
+data
+jars
+logs
+nifi
+pvenv
+infra

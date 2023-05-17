@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "Northwind"."STAGE"."sales_reports";
+    -- dbt seed --
+    
+          insert into "Northwind"."STAGE"."sales_reports" ("group_by", "display", "title", "filter_row_source", "default") values
+          (%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s)
+      
+
+;
+  

@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "Northwind"."STAGE"."purchase_order_status";
+    -- dbt seed --
+    
+          insert into "Northwind"."STAGE"."purchase_order_status" ("id", "status") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  

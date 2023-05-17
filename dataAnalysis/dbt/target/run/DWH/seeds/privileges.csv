@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "Northwind"."STAGE"."privileges";
+    -- dbt seed --
+    
+          insert into "Northwind"."STAGE"."privileges" ("id", "privilege_name") values
+          (%s,%s)
+      
+
+;
+  

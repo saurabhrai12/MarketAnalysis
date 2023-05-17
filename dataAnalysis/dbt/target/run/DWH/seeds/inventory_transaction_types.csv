@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "Northwind"."STAGE"."inventory_transaction_types";
+    -- dbt seed --
+    
+          insert into "Northwind"."STAGE"."inventory_transaction_types" ("id", "type_name") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  
