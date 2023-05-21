@@ -1,0 +1,10 @@
+version: 2 
+sources:
+  - name: securities
+    schema: raw
+    tables: 
+      - name: stocks_info
+      - name: stock_daily_valuations
+      - name: crypto
+      - name: comodities
+      - name: currency
