@@ -202,6 +202,7 @@ services:
     
     volumes:
       - ../dataAnalysis/api:/api
+      - ./nifi/jars/data:/api/data
     
     depends_on:
       - postgres

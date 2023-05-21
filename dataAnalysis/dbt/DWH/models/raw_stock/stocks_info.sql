@@ -1,6 +1,6 @@
 with source as (
 
-    select * from "Northwind"."STAGE"."orders_tax_status"
+    select * from {{ source('securities', 'stock_info') }}
 )
 select 
     *,

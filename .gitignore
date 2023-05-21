@@ -8,3 +8,6 @@ jars
 logs
 nifi
 pvenv
+consumedata
+profiles
+target
